@@ -3,7 +3,7 @@ This is a simple chatbot project implemented in Python using Flask for the web a
 
 ## Clone the repository
 ```
-git clone https://github.com/yourusername/chatbot.git
+git clone https://github.com/TomRigger/Simple-chatbot.git
 ```
 ## Install the required dependencies
 ```

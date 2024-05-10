@@ -1,0 +1,43 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+        "responses": ["Hello! How can I assist you?", "Hi there! How may I help you today?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+        "responses": ["Goodbye! Have a great day!", "See you later! Take care."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+        "responses": ["You're welcome!", "My pleasure!"]
+      },
+      {
+        "tag": "product_information",
+        "patterns": ["Tell me about your products", "What do you offer?", "Product details", "Can you recommend something?"],
+        "responses": ["We offer a variety of products including XYZ, ABC, and DEF. Can I help with anything specific?"]
+      },
+      {
+        "tag": "order_processing",
+        "patterns": ["I want to place an order", "How can I buy your product?", "Order placement", "Purchase process"],
+        "responses": ["Sure, I can assist you with placing an order. Please provide me with more details."]
+      },
+      {
+        "tag": "faq",
+        "patterns": ["How do I reset my password?", "Do you offer refunds?", "What are your business hours?", "How can I contact support?"],
+        "responses": ["To reset your password, please visit our website and follow the instructions under the 'Forgot Password' section.",
+                      "Yes, we do offer refunds within 30 days of purchase. For more details, please check our refund policy on our website.",
+                      "Our business hours are Monday to Friday, 9 AM to 5 PM. We're closed on weekends and holidays.",
+                      "You can contact our support team via email at support@example.com or by phone at 123-456-7890."]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["I have a suggestion", "Feedback", "How can I provide feedback?", "I want to report a problem"],
+        "responses": ["We appreciate your feedback! Please feel free to share your suggestions or report any problems you encountered."]
+      }
+    ]
+  }
+  
